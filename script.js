@@ -22,5 +22,3 @@ function dreapta() {
      lat = (votStanga / (votDreapta + votStanga)) * 100;
      document.getElementById("wdth").style.width = lat + proc;
 }
-
-console.log(btnd.innerHTML);
