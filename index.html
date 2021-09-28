@@ -12,7 +12,7 @@
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
-          <title>Document</title>
+          <title>Voting</title>
           <!-- 
                font-family: 'Inter', sans-serif;
                font-family: 'Roboto', sans-serif;
@@ -22,14 +22,15 @@
           <div x-data="{textColor: 1, textSize: 1, count:16, grosime:500}" class="h-screen bg-cover" style="background-image: url(Media/bg.jpg)">
                <div class="bg-black bg-opacity-50 h-screen w-screen">
                     <div class="max-w-7xl mx-auto flex flex-col items-center justify-center">
-                         <p class="mt-10">Vote!</p>
+                         <p class="mt-10 text-2xl">Vote to decide the winner!</p>
+                         <img src="Media/svg1.svg" class="w-10" alt="" />
+                         <p id="msg">So far, pretty close!</p>
                          <div class="flex items-center justify-center">
                               <div class="mt-28 w-96 h-16 bg-gradient-to-r from-green-800 to-blue-800 z-0 absolute rounded-2xl">
                                    <div id="wdth" style="width: 192px" class="h-16 bg-gradient-to-r from-purple-800 to-red-700 z-10 relative rounded-l-2xl border-r-2 border-white"></div>
                                    <div class="flex flex-row w-96 justify-between mt-3">
                                         <button id="btns" onclick="stanga()" class="bn632-hover bn24"></button>
                                         <button id="btnd" onclick="dreapta()" class="bn632-hover bn24">323</button>
-
                                    </div>
                               </div>
                          </div>
