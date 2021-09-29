@@ -26,11 +26,23 @@
                          <img src="Media/svg1.svg" class="w-10" alt="" />
                          <p id="msg">So far, pretty close!</p>
                          <div class="flex items-center justify-center">
-                              <div class="mt-28 w-96 h-16 bg-gradient-to-r from-green-800 to-blue-800 z-0 absolute rounded-2xl">
+                              <div style="box-shadow: 0 4px 105px 7px rgba(126, 52, 161, 0.75)" class="mt-28 w-96 h-16 bg-gradient-to-r from-green-800 to-blue-800 z-0 absolute rounded-2xl">
                                    <div id="wdth" style="width: 192px" class="h-16 bg-gradient-to-r from-purple-800 to-red-700 z-10 relative rounded-l-2xl border-r-2 border-white"></div>
                                    <div class="flex flex-row w-96 justify-between mt-3">
+                                        <p id="cont1">Contestant 1</p>
+                                        <p id="cont2">Contestant 2</p>
+                                   </div>
+                                   <div class="flex flex-row w-96 justify-between mt-2">
                                         <button id="btns" onclick="stanga()" class="bn632-hover bn24"></button>
                                         <button id="btnd" onclick="dreapta()" class="bn632-hover bn24">323</button>
+                                   </div>
+                                   <div class="flex flex-row items-center justify-center mt-5 space-x-3">
+                                        <input type="text" name="" id="forms" class="rounded bg-gradient-to-r from-purple-800 to-red-700 text-center w-44 font-semibold" />
+                                        <p>VS</p>
+                                        <input type="text" name="" id="formd" class="bg-gradient-to-r from-green-800 to-blue-800 text-center rounded w-44 font-semibold" />
+                                   </div>
+                                   <div class="flex items-center justify-center mt-3">
+                                        <button onclick="addCont()" class="bn632-hover bn24">Add</button>
                                    </div>
                               </div>
                          </div>
